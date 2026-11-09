@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    display: block;
+    margin: 8px;
+}
+
+span {
+    margin: 8px;
+}
+
+div {
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+p {
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 24px;
+}
+
+#game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#container_1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.click_per_second {
+    display: flex;
+
+}
+
+.object {
+    display: grid;
+}
+
+.click_button {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
