@@ -16,9 +16,9 @@ import { CommonModule } from '@angular/common';
       </div>
 
       <div id="container_2" class="game_element">
-        <div id="element_2" class="object">
-          <span><button>Cursor</button></span>
-          <span><button>Student</button></span>
+        <div id="element" class="object">
+          <span><button class="object_button">Cursor</button></span>
+          <span><button class="object_button">Student</button></span>
         </div>
       </div> 
     </div>

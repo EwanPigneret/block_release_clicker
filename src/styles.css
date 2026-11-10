@@ -1,10 +1,11 @@
 body {
     display: block;
     margin: 8px;
+    background-color: aqua;
 }
 
 span {
-    margin: 8px;
+    margin: 8px;   
 }
 
 div {
@@ -39,6 +40,8 @@ button {
     justify-content: center;
     padding-left: 2vw;
     padding-right: 2vw;
+
+    background-color: chartreuse;
 }
 
 #container_1 {
@@ -46,6 +49,8 @@ button {
     align-items: center;
     justify-content: center;
     margin: auto;
+
+    background-color: blueviolet;
 }
 
 #container_2 {
@@ -53,6 +58,8 @@ button {
     align-items: center;
     justify-content: center;
     margin: auto;
+
+    background-color: blue;
 }
 
 .click_per_second {
@@ -69,4 +76,8 @@ button {
     padding-bottom: 20vh;
     padding-left: 10vw;
     padding-right: 10vw;
+}
+
+.object_button {
+    width: 100%;
 }
