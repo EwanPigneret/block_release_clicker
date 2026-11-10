@@ -17,57 +17,45 @@ h1 {
     font-size: 48px;
 }
 
-p {
-    text-align: center;
-    padding: 8px;
-    margin: 8px;
-}
-
 button {
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    font-size: 24px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 
 #game {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
-
     background-color: chartreuse;
 }
 
-#container_1 {
+#game_container {
     display: grid;
     align-items: center;
     justify-content: center;
     margin: auto;
-
     background-color: blueviolet;
 }
 
-#container_2 {
+#text_container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#object_container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-
     background-color: blue;
 }
 
-.click_per_second {
-    display: flex;
-
-}
-
-.object {
+#element {
     display: grid;
 }
 
@@ -79,5 +67,13 @@ button {
 }
 
 .object_button {
+    flex-direction: row;
+    text-align: center;
     width: 100%;
+}
+
+.text {
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
 }
